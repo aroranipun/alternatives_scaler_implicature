@@ -40,7 +40,7 @@ We have implemented a specific algorithm in Python that computes this function. 
 
 Example: for sentence: -(((p)&(-(q)))|((p)|(r)))
 
-![Structural_ALternatives][/images/results.PNG]
+![Structural_ALternatives](images/results.PNG)
 
 ## References
 Fox, D., & Katzir, R. (2011). On the characterization of alternatives. Natural Language Semantics, 19(1), 87-107.
