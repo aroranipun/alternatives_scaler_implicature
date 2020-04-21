@@ -38,8 +38,11 @@ Replace ∧ by ∨ and vice-versa
 
 We have implemented a specific algorithm in Python that computes this function. Our algorithm is currently limited to sentences in propositional logic, and assumes the syntax imposed by Python. The algorithm starts with the lowest node of the first branch it encounters as it reads the sentence from left to right. For every sentence that it encounters, it gathers the alternatives using the rules a) and b) . Thus, the set of alternatives grows as you climb the tree. In future work, we will extend the approach to first-order logic, we will implement a top-down variant, and we will integrate our ALT algorithms with the algorithm for computing O implemented by Mekik and Vertolli (2016). Together, this will automate the process of generating the strengthened meaning of sentences of arbitrary form and complexity.
 
+Example: for sentence: -(((p)&(-(q)))|((p)|(r)))
 
-References
+![Structural_ALternatives][/images/results.PNG]
+
+## References
 Fox, D., & Katzir, R. (2011). On the characterization of alternatives. Natural Language Semantics, 19(1), 87-107.
 Mekik, C., & Vertolli, M. (2016, April). Towards Computer Implementations of exh. Retrieved March 24, 2017 from http://tom9semantics.wixsite.com/tom9/program
 Spector, B. (2016). Multivalent semantics for vagueness and presupposition. Topoi, 35(1), 45-55.
