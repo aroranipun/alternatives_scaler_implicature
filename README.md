@@ -43,6 +43,8 @@ Example: for sentence: -(((p)&(-(q)))|((p)|(r)))
 ![Structural_ALternatives](images/results.PNG)
 
 ## References
-Fox, D., & Katzir, R. (2011). On the characterization of alternatives. Natural Language Semantics, 19(1), 87-107.
+Fox, D., & Katzir, R. (2011). On the characterization of alternatives. Natural Language Semantics, 19(1), 87-10
+
 Mekik, C., & Vertolli, M. (2016, April). Towards Computer Implementations of exh. Retrieved March 24, 2017 from http://tom9semantics.wixsite.com/tom9/program
+
 Spector, B. (2016). Multivalent semantics for vagueness and presupposition. Topoi, 35(1), 45-55.
